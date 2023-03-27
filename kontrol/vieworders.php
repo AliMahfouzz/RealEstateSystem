@@ -99,9 +99,9 @@ include('viewpayments.php');
     <?php
 
     if ($_SESSION["usertype"] == "admin") {
-        include('adminnavbar.php');
+       include('adminnavbar.php');
     } else {
-        include('brokernavbar.php');
+       include('brokernavbar.php');
     }
 
     ?>
